@@ -1,0 +1,42 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+body {
+}
+.header {
+  background-color: #415e9b;
+  height: 82px;
+  border-bottom: 1px solid #133783;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.logo {
+  color: white;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  display: inline-block;
+  font-weight: bolder;
+  font-size: 40px;
+}
+.facebook-login {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.facebook-login > div {
+  margin-left: 10px;
+  font-size: 12px;
+}
+.login-button {
+  margin-top: 13px;
+  color: white;
+  background-color: #2d55aa;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  border: 1px solid #152b5a;
+  cursor: pointer;
+}
