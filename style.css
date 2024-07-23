@@ -45,7 +45,5 @@ html {
   display: flex;
   justify-content: space-evenly;
   background-image: linear-gradient(to bottom, white, rgb(210, 210, 248));
-}
-.clear-body {
-  clear: both;
+  height: 70vh;
 }
