@@ -2,7 +2,8 @@
   padding: 0px;
   margin: 0px;
 }
-body {
+html {
+  scroll-behavior: smooth;
 }
 .header {
   background-color: #415e9b;
@@ -39,4 +40,12 @@ body {
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   border: 1px solid #152b5a;
   cursor: pointer;
+}
+.content-body {
+  display: flex;
+  justify-content: space-evenly;
+  background-image: linear-gradient(to bottom, white, rgb(210, 210, 248));
+}
+.clear-body {
+  clear: both;
 }
