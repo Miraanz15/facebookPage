@@ -60,3 +60,14 @@ html {
 .right-body {
   width: 43%;
 }
+button {
+  background-color: rgb(75, 212, 75);
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+  width: 200px;
+  margin-bottom: 20px;
+  font-weight: bolder;
+}
