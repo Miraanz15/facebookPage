@@ -43,7 +43,20 @@ html {
 }
 .content-body {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   background-image: linear-gradient(to bottom, white, rgb(210, 210, 248));
   height: 70vh;
+  margin-top: 8vh;
+}
+.font-language {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: rgba(0, 0, 0, 0.63);
+}
+.left-body {
+  width: 40%;
+  margin-left: 14vw;
+}
+.right-body {
+  width: 43%;
 }
