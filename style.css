@@ -45,8 +45,8 @@ html {
   display: flex;
   justify-content: space-between;
   background-image: linear-gradient(to bottom, white, rgb(210, 210, 248));
-  height: 70vh;
-  margin-top: 8vh;
+  height: 68vh;
+  margin-top: 3.5vh;
 }
 .font-language {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
@@ -60,7 +60,7 @@ html {
 .right-body {
   width: 43%;
 }
-button {
+.create-button {
   background-color: rgb(75, 212, 75);
   color: white;
   padding: 10px;
@@ -70,4 +70,39 @@ button {
   width: 200px;
   margin-bottom: 20px;
   font-weight: bolder;
+}
+.lang-container {
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 15vw;
+  border-bottom: 1px solid rgb(201, 201, 201);
+  width: 73vw;
+  margin-top: 8px;
+  padding-bottom: 8px;
+}
+.lang {
+  text-decoration: none;
+  margin-right: 15px;
+  color: rgb(38, 38, 189);
+  font-size: 15px;
+}
+.footer-container {
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 15vw;
+  margin-top: 5px;
+  width: 73vw;
+}
+.footer-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-right: 30px;
+}
+.footer-block-value {
+  text-decoration: none;
+  color: rgb(38, 38, 189);
+  font-size: 15px;
+  margin-bottom: 4px;
+  font-size: 12px;
 }
